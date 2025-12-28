@@ -1,0 +1,18 @@
+brew "neovim"
+brew "ripgrep"
+
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+
+cask "1password"
+cask "alt-tab"
+cask "anki"
+cask "appcleaner"
+cask "firefox"
+cask "flux-app"
+cask "iterm2"
+cask "jordanbaird-ice"
+cask "mullvad-vpn"
+cask "notion"
+cask "rectangle"
+cask "spotify"
