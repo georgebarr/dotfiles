@@ -1,13 +1,19 @@
+# Git aliases
 alias mb='git checkout main'
 alias sb='git checkout'
 alias nb='git checkout -b'
 alias cm='git commit -m'
 alias st='git status'
-alias root='echo "Navigated into the root directory."; cd ~'
-alias dfi='echo "Navigated into the dotfiles directory."; cd ~/developer/dotfiles'
-alias nv='nvim'
 alias gi='git init'
 alias grao='git remote add origin'
 alias xb='git branch -d'
+
+# Navigation aliases
+alias root='echo "Navigated into the root directory."; cd ~'
+alias dfi='echo "Navigated into the dotfiles directory."; cd ~/developer/dotfiles'
+alias nvc='echo "Navigated into the neovim config directory."; cd ~/.config/nvim'
+alias nv='nvim'
+
+# Sourcing aliases 
 alias .a='echo "Sourced zsh aliases."; source ~/.aliases.zsh'
 alias .z='echo "Sourced .zshrc."; source ~/.zshrc'
