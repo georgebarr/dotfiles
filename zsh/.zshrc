@@ -11,5 +11,9 @@ source ~/.aliases.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Binds option + right/left arrow key to move between words
+bindkey "^[[1;3C" forward-word
+bindkey "^[[1;3D" backward-word
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
