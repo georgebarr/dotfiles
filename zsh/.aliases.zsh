@@ -12,6 +12,7 @@ alias xb='git branch -d'
 alias root='echo "Navigated into the root directory."; cd ~'
 alias dfi='echo "Navigated into the dotfiles directory."; cd ~/developer/dotfiles'
 alias nvc='echo "Navigated into the neovim config directory."; cd ~/.config/nvim'
+alias dev='echo "Navigated into the developer directory."; cd ~/developer'
 
 # Sourcing aliases 
 alias .a='echo "Sourced zsh aliases."; source ~/.aliases.zsh'
