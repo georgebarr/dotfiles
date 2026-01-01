@@ -14,15 +14,17 @@ alias dfi='echo "Navigated into the dotfiles directory."; cd ~/developer/dotfile
 alias nvc='echo "Navigated into the neovim config directory."; cd ~/.config/nvim'
 alias dvi='echo "Navigated into the developer directory."; cd ~/developer'
 
-mkcd() {
-    mkdir -p "$1"
-    cd "$1"
-}
-
 # Sourcing aliases 
 alias .a='echo "Sourced zsh aliases."; source ~/.aliases.zsh'
 alias .z='echo "Sourced .zshrc."; source ~/.zshrc'
 
+# File aliases
+alias rmd='rmdir'
+
+mkcd() {
+    mkdir -p "$1"
+    cd "$1"
+}
 # Neovim aliases 
 alias nv='nvim'
 alias ea='nvim ~/.aliases.zsh'
