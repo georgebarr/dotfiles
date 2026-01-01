@@ -20,11 +20,13 @@ alias .z='echo "Sourced .zshrc."; source ~/.zshrc'
 
 # File aliases
 alias rmd='rmdir'
+alias mk='mkdir'
 
 mkcd() {
     mkdir -p "$1"
     cd "$1"
 }
+
 # Neovim aliases 
 alias nv='nvim'
 alias ea='nvim ~/.aliases.zsh'
