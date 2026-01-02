@@ -46,5 +46,5 @@ alias ez='nvim ~/.bashrc'
 alias eb='nvim ~/.bashrc'
 
 # Other
-alias c='clear'
+alias cl='clear'
 alias hc='echo "Terminal history cleared"; history -c'
