@@ -33,6 +33,11 @@ mkcd() {
     cd "$1"
 }
 
+cpb() {
+    cat "$1" | pbcopy
+    echo 'Copied the contents of $1 to clipboard.'
+}
+
 # Neovim aliases
 alias nv='nvim'
 alias ea='nvim ~/.aliases'
@@ -41,4 +46,4 @@ alias eb='nvim ~/.bashrc'
 
 # Other
 alias c='clear'
-alias hc='history -c'
+alias hc='echo "Terminal history cleared"; history -c'
