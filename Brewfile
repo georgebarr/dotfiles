@@ -1,9 +1,7 @@
+brew "bash-completion"
+brew "coreutils"
 brew "neovim"
 brew "ripgrep"
-
-brew "zsh-autosuggestions"
-brew "zsh-syntax-highlighting"
-
 cask "1password"
 cask "alt-tab"
 cask "anki"
