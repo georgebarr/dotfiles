@@ -11,6 +11,7 @@ alias xb='git branch -d'
 alias mb='git checkout main'
 alias sb='git checkout'
 alias nb='git checkout -b'
+alias lb='git branch'
 alias clone='git clone'
 
 # Navigation aliases
