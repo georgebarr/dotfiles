@@ -12,6 +12,7 @@ alias mb='git checkout main'
 alias sb='git checkout'
 alias nb='git checkout -b'
 alias lb='git branch'
+alias uc='git reset --soft HEAD~1'
 alias clone='git clone'
 
 # Navigation aliases
