@@ -23,7 +23,7 @@ alias rfi='echo "Navigated into the root directory."; cd ~'
 alias root='echo "Navigated into the root directory."; cd ~'
 
 # File aliases
-alias rmd='rm -rf'
+alias rmd='echo "Directory successfully removed"; rm -rf'
 alias mk='mkdir'
 alias ls='echo; gls -a --color=auto; echo'
 alias .a='echo "Sourced aliases."; source ~/.aliases'
