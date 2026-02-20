@@ -1,12 +1,13 @@
 # ---------- Sources ----------
 
-# Aliases
+# Source aliases
 [ -f ~/.aliases ] && source ~/.aliases
+[ -f ~/.aliases.private ] && source ~/.aliases.private
 
-# Bash Competion
+# bash completion
 [[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
 
-# Git Prompt
+# Source git prompt
 [ -f ~/.git-prompt.sh ] && source ~/.git-prompt.sh
 
 # ---------- Configurations ----------
