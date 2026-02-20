@@ -4,11 +4,14 @@
 [ -f ~/.aliases ] && source ~/.aliases
 [ -f ~/.aliases.private ] && source ~/.aliases.private
 
-# bash completion
+# Bash completion
 [[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
 
 # Source git prompt
 [ -f ~/.git-prompt.sh ] && source ~/.git-prompt.sh
+
+# Homebrew
+export PATH="/opt/homebrew/bin:$PATH"
 
 # ---------- Configurations ----------
 
