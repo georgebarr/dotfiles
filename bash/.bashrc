@@ -13,6 +13,9 @@
 # Homebrew
 export PATH="/opt/homebrew/bin:$PATH"
 
+# Poetry
+export PATH="$HOME/.local/bin:$PATH"
+
 # ---------- Configurations ----------
 
 PS1='\[\e[38;5;248m\][\t]\[\e[0m\] \[\e[38;5;255m\]\w\[\e[38;5;141m\]$(__git_ps1 " (%s)")\[\e[0m\]: '
