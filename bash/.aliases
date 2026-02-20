@@ -33,6 +33,11 @@ cpb() {
 }
 
 # Neovim aliases
+alias nv='nvim'
 alias ea='nvim ~/.aliases'
 alias eap='nvim ~/.aliases.private'
 alias eb='nvim ~/.bashrc'
+
+# Other aliases
+alias python='python3'
+alias pip='pip3'
