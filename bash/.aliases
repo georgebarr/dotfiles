@@ -14,13 +14,12 @@ alias lb='git branch'
 alias rt='cd ~; echo "Navigated into the root directory."'
 alias dfi='cd ~/Developer/dotfiles; echo "Navigated into the dotfiles directory."'
 alias nvc='cd ~/.config/nvim; echo "Navigated into the neovim config directory."'
-alias dv='cd ~/Developer; echo "Navigated into the developer directory."'
 alias root='cd ~; echo "Navigated into the root directory."'
-alias rfi='cd ~; echo "Navigated into the root directory."'
 
 # File aliases
 alias ls='echo; gls -a --color=auto; echo'
 alias .a='source ~/.aliases; echo "Sourced aliases."'
+alias .ap='source ~/.aliases.private; echo "Sourced private aliases."'
 alias .b='source ~/.bashrc; echo "Sourced .bashrc."'
 
 mkcd() {
@@ -34,7 +33,6 @@ cpb() {
 }
 
 # Neovim aliases
-alias nv='nvim'
 alias ea='nvim ~/.aliases'
 alias eap='nvim ~/.aliases.private'
 alias eb='nvim ~/.bashrc'
