@@ -1,4 +1,5 @@
-brew "bash-completion"
+brew "bash"
+brew "bash-completion@2"
 brew "coreutils"
 brew "mysql", restart_service: :changed
 brew "neovim"

@@ -11,6 +11,7 @@ alias nb='git checkout -b'
 alias lb='git branch'
 
 alias root='cd ~; echo "Navigated into the root directory."'
+alias dev='cd ~/developer; echo "Navigated into the developer directory."'
 
 # File aliases
 alias ls='echo; gls -a --color=auto; echo'
