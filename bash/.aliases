@@ -14,10 +14,15 @@ alias root='cd ~; echo "Navigated into the root directory."'
 alias dev='cd ~/developer; echo "Navigated into the developer directory."'
 
 # File aliases
-alias ls='echo; gls -a --color=auto; echo'
 alias .a='source ~/.aliases; echo "Sourced aliases."'
 alias .ap='source ~/.aliases.private; echo "Sourced private aliases."'
 alias .b='source ~/.bashrc; echo "Sourced .bashrc."'
+
+ls() {
+    echo
+    gls -a --color=auto "$@"
+    echo
+}
 
 mkcd() {
     mkdir -p "$1"
