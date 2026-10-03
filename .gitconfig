@@ -1,0 +1,6 @@
+[user]
+	name = George Barr
+	email = 110062762+georgebarr@users.noreply.github.com
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore_global
